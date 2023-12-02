@@ -1,0 +1,24 @@
+.button{
+    background-color: grey;
+    border-radius: 3px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: green;
+
+}
+
+img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#card_area{
+    margin-top: 100px;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+        HELLO!
+    </h1>
+    <div>
+    Building our own Prmosies. <br>
+    Promises with the new keyword to make your own promise. <br>
+    Promise accepts a single function (call it fn) as an argument <br>
+    - fn accepts two functions as arguments, resolve and reject <br>
+    - Pass resolve a value for the promise to resolve to that value <br>
+    - Pass reject a value for the promise to reject to that value <br>
+    function myAsyncFunction() { <br>
+        return new Promise((resolve, reject) => { <br>
+            Do Async Stuff HERE <br>
+            resolve(success value); <br>
+            reject(fail value); <br>
+        }) <br>
+    } <br>
+.then === resolve(function run) <br>
+.catch === reject(function run) <br>
+    </div>
+    <div>
+        AXIOS uses an OLD function -- XMLHttpRequest() <br>
+        We can make our own axios... <br>
+
+    </div>
+
+
+    <script src="https://unpkg.com/axios/dist/axios.js"></script>
+    <script src= "36.2promise-ex.js"></script>    
+</body>
+</html>
